@@ -1,13 +1,13 @@
 # pjseka-60fps-fix
 
-Guide to force higher FPS for Project SEKAI via `adb`.
+Guide to force higher FPS for Project SEKAI or any other games via `adb`, although you can set anything above 90 or 120, myself with a nothing phone 4a pro can only go up to 90fps. So it may varies between devices
 
 ## 1) Find the package name
 
 Use this to list installed user apps and grep for SEGA packages:
 
 ```bash
-adb shell pm list packages -3 | grep sega
+adb shell pm list packages -3 | grep sega # or any other wildcard you can think of based on your game of choice
 ```
 
 If needed, change `sega` to another identifier.
@@ -17,6 +17,7 @@ If needed, change `sega` to another identifier.
 ```bash
 adb shell cmd game set --fps 120 --mode 2 com.sega.ColorfulStage.en # global version
 adb shell cmd game set --fps 120 --mode 2 com.sega.pjsekai # jp version
+adb shell cmd game set --fps 120 --mode 2 {change to your game's identifier}
 ```
 
 ## 3) Manually lock refresh rate
