@@ -3,6 +3,8 @@
 Guide to force higher FPS for Project SEKAI or any other games via `adb`, although you can set anything above 90 or 120, myself with a nothing phone 4a pro can only go up to 90fps. So it may varies between devices
 This is **NOT** a permanent fix, just a temporary workaround. I still got hopes for Nothing OS and Sega or any other game publisher would work together and address this issue, but other than that then we - as users - has to stepped in and work our way through.
 
+Any changes were made to that specific game would be reset if the version got changed(e.g: game update) iirc.
+
 ## 1) Find the package name
 
 Use this to list installed user apps and grep for SEGA packages:
