@@ -20,7 +20,11 @@ If needed, change `sega` to another identifier.
 ```bash
 adb shell cmd game set --fps 120 --mode 2 com.sega.ColorfulStage.en # global version
 adb shell cmd game set --fps 120 --mode 2 com.sega.pjsekai # jp version
-adb shell cmd game set --fps 120 --mode 2 {change to your game's identifier}
+adb shell cmd game set --fps 120 --mode 2 game.qualiarts.hololive.dreams.com
+```
+or
+```bash
+adb shell cmd game set --fps 120 --mode 2 {change to your game package identifier}
 ```
 
 ## 3) Optional: manually lock refresh rate
