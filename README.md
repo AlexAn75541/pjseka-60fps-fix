@@ -5,6 +5,8 @@ This is **NOT** a permanent fix, just a temporary workaround. I still got hopes 
 
 Any changes were made to that specific game would be reset if developer options being turned off or the package version got changed(e.g: game update) iirc.
 
+Some phones may have performance selections in their respective game mode overlay, etc. So make sure to switch to the highest property like high performance mode, there're chances that they could unlock the locked fps issue. 
+
 ## 1) Find the package name
 
 Use this to list installed user apps and grep for SEGA packages:
